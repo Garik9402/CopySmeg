@@ -1,0 +1,42 @@
+#showno5 {
+   background: #009999;
+   padding: 30px 25px;
+   font-size: 14px;
+   color: #fff;
+   position: fixed;
+   bottom: 0;
+   z-index: 100000;
+}
+
+#showno5 .cloc {
+   position: absolute;
+   right: 10px;
+   top: 0;
+   font-size: 32px;
+   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+   /* body {
+      padding-top: 50px;
+   } */
+
+   #showno5 {
+      display: block;
+      position: absolute;
+      top: 0;
+      text-align: center;
+      width: 100%;
+      font-weight: bold;
+      font-size: 14px;
+      height: 50px;
+      line-height: 50px;
+      padding: 0;
+      bottom: auto;
+      z-index: 1;
+   }
+
+   #showno5 .cloc {
+      display: none;
+   }
+}
